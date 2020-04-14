@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16eabe78-7dd7-4433-9b21-d7d40554caa9" name="Default Changelist" comment="" />
+    <list default="true" id="16eabe78-7dd7-4433-9b21-d7d40554caa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +36,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -55,6 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/province" />
@@ -81,7 +88,7 @@
       <recent name="D:\JAVA\ideaProjects\disease-analysis" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiseaseDriver">
+  <component name="RunManager" selected="Application.ProvinceDriver">
     <configuration name="DayCountDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.daycount.DayCountDriver" />
       <module name="disease-analysis" />
@@ -149,9 +156,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProvinceDriver" />
         <item itemvalue="Application.DiseaseDriver" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.ProvinceDriver" />
         <item itemvalue="Application.DayCountDriver" />
         <item itemvalue="Application.Test" />
       </list>
@@ -171,6 +178,8 @@
       <workItem from="1586705881269" duration="5592000" />
       <workItem from="1586748255533" duration="41000" />
       <workItem from="1586843501108" duration="11637000" />
+      <workItem from="1586873788349" duration="279000" />
+      <workItem from="1586874083404" duration="10000" />
     </task>
     <servers />
   </component>
@@ -194,22 +203,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1586708801133" />
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1586859405967">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1586874066969">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586859405967" />
-    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1586859405967">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586874066969" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1586874066969">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586859405967" />
-    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1586859405966">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586874066969" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1586874066968">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586859405966" />
-    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1586859405967">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586874066968" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1586874066969">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586859405967" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586874066969" />
     <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1586859405967">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -230,10 +239,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1586711452577" />
-    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1586748286256">
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1586874082177">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586748286256" />
+    <state x="449" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586874082177" />
     <state x="178" y="112" key="new project wizard" timestamp="1586701273825">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
