@@ -20,8 +20,8 @@ public class DiseaseMapper extends Mapper<LongWritable, Text, Text, DiseaseBean>
         String line = value.toString();
 //        String[] fields = line.split(",",-1);
         List<String> fields = mySplit(line);
-        k.set(fields.get(0));
-        v.setName(fields.get(0));
+        k.set(fields.get(0).trim());
+        v.setName(fields.get(0).trim());
         v.setAlias(fields.get(1));
         v.setPart(fields.get(2));
         v.setAge(fields.get(3));
